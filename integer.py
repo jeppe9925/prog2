@@ -17,7 +17,7 @@ class Integer(object):
 	def get(self):
 		return lib.Integer_get(self.obj)
 
-	def fib(self, n):
+	def fib(self):
 		return lib.Integer_fib(self.obj)
 
 	def set(self, val):
