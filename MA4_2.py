@@ -20,11 +20,13 @@ def main():
 		start = pc()  #Cpp tidtagning för fib. tider före, efter sedan skillnad.
 		print(I.fib()) 
 		end = pc()
+		print(round(end-start,2))
 		cppTime.append(end - start)
 
 		start = pc() #Py Samma här
 		print(fib_py(i))
 		end = pc()
+		print(round(end-start,2))
 		pyTime.append(end - start)
 
 	I.set(47) 
